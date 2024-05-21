@@ -1,1 +1,1 @@
-Live Deplyoment: https://brand-perception.vercel.app/
+Live Deployment: https://brand-perception.vercel.app/
