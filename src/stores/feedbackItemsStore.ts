@@ -76,7 +76,7 @@ export const useFeedbackItemsStore = create<Store>((set, get) => ({
   getCompanyList: () => {
     return get()
       .feedbackItems.map((item: FeedbackItemObject) => item.company)
-      .filter((company: string, index: number, array: FeedbackItemObject[]) => {
+      .filter((company: string, index: number, array: string[]) => {
         return array.indexOf(company) === index;
       });
   },
